@@ -12,20 +12,20 @@ const it = (desc, fn) => {
   }
 };
 
-it('Test1: should return max number 11', () => {
-  const initialList = [1, 3, 7, 8, 9, 10, 11];
+it('Test1: should return largest number 11', () => {
+  // const initialList = [1, 3, 7, 8, 9, 10, 11];
   const shiftedList = [8, 9, 10, 11, 1, 3, 7];
-  assert.strictEqual(service.findMax(shiftedList), 11);
+  assert.strictEqual(service.findLargest(shiftedList), 11);
 });
 
-it('Test2: should return max number 10', () => {
-  const initialList = [2, 4, 6, 8, 10];
+it('Test2: should return largest number 10', () => {
+  // const initialList = [2, 4, 6, 8, 10];
   const shiftedList = [6, 8, 10, 2, 4];
-  assert.strictEqual(service.findMax(shiftedList), 10);
+  assert.strictEqual(service.findLargest(shiftedList), 10);
 });
 
-it('Test2: should return max number 10', () => {
-  const initialList = [2, 4, 6, 8, 10];
+it('Test2: should return largest number 10', () => {
+  // const initialList = [2, 4, 6, 8, 10];
   const shiftedList  = [2, 4, 6, 8, 10];
-  assert.strictEqual(service.findMax(shiftedList), 10);
+  assert.strictEqual(service.findLargest(shiftedList), 10);
 });
