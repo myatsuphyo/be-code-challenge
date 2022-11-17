@@ -31,6 +31,16 @@ Binary Search is used to search the largest number. Since, the array can be unso
 - if **middle index** is larger than both previous and next indices, the largest number is the middle index.
 - else (1. if middle index is larger than last index, the largest number is in first half. 2. else it is in the second half.)
 
+
+## Tests
+
+Run following command to run all tests. 
+
+```sh
+$ node test.js
+```
+
+
 ## Notes
 1. To identify any edge cases that we need to account for?
   - Negative numbers, I did not consider negative numbers in my current version for now. If this is in my real life coding tasks, I would confirm we need to consider negative numbers first before I add more complex conditions to the implementation.
