@@ -29,3 +29,9 @@ it('Test2: should return largest number 10', () => {
   const shiftedList  = [2, 4, 6, 8, 10];
   assert.strictEqual(service.findLargest(shiftedList), 10);
 });
+
+it('Test2: should return largest number 12', () => {
+  // const initialList = [2, 4, 6, 8, 10, 12];
+  const shiftedList  = [12, 2, 4, 6, 8, 10];
+  assert.strictEqual(service.findLargest(shiftedList), 12);
+});
