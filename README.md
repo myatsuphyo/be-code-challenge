@@ -28,6 +28,7 @@ const shiftedList  = [2, 4, 6, 8, 10];  // Here is the list after it has been sl
 Binary Search is used to search the largest number. Since, the array can be unsorted after it's shifted, we consider following conditions during the binary search. 
 - if there is only 1 index, the largest number is the **first index**.
 - if **last index** is larger than both its previous index and first index, the largest number is the last index.
+- if **first index** is larger than both its next index and last index, the largest number is the first index.
 - if **middle index** is larger than both previous and next indices, the largest number is the middle index.
 - else (1. if middle index is larger than last index, the largest number is in first half. 2. else it is in the second half.)
 
